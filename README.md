@@ -2,7 +2,7 @@
 
 ## Enhancing and accelerating cell type deconvolution of large-scale spatial transcriptomics slices with dual network model
 
-### Yuhong Zha, Quan Zou, Shaoqing Feng, Peng Gao and Xiaoke Ma
+### Yuhong Zha, Shaoqing Feng, Peng Gao, Quan Zou and Xiaoke Ma
 
 Cell type deconvolution deciphers spatial distribution of mRNA transcripts at single cell level by integrating single-cell RNA sequencing (scRNA-seq) and spatial transcriptomics data to infer mixture of cell types of spots in slices. Current algorithms are criticized for neglecting connection between scRNA-seq and spatial transcriptomics data, as well as time-consuming, hampering application to large-scale data. To address these issues, a joint learning nonnegative matrix factorization algorithm for fast cell type deconvolution (aka jMF2D) for large-scale slices is proposed, which integrates scRNA-seq and spatial transcriptomics data with network models. To bridge scRNA-seq and spatial transcriptomics data, jMF2D jointly learns cell type similarity network to enhance quality of signatures of cell types, thereby promoting accuracy and efficiency of deconvolution. Experiments demonstrate that jMF2D outperforms state-of-the-art baselines in terms of accuracy by saving about 90% running time.
 
